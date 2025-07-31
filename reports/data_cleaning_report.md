@@ -30,7 +30,7 @@
 ###  Duplicates
 - Removed all exact duplicate rows using `.drop_duplicates()`
 
-### ⚠ Outliers
+###  Outliers
 - Capped or removed extreme `adr`, `lead_time` values
 - Removed bookings with 0 nights and not canceled
 
